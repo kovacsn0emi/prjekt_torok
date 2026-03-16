@@ -5,10 +5,11 @@
     width: 100%;
 }
 
-body{
-    margin-left: 10px;
-}
 
 .col{
     margin-left: 100px;
+}
+
+#szoveg{
+    font-size: 20px;
 }
