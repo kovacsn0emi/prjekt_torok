@@ -1,14 +1,14 @@
 .carousel,
 .carousel-inner,
 .carousel-item{
-    height: 100%
-}
-
-.carousel-item{
-    width: 50%;
+    height: 90%;
+    width: 100%;
 }
 
 body{
     margin-left: 10px;
 }
 
+.col{
+    margin-left: 100px;
+}

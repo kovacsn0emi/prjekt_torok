@@ -5,31 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Törökország</title>
 </head>
 <body style="background-color: #b9d4ee;">
 
-  <div id="carouselExample" class="carousel slide">
+  <div id="carouselExampleCaptions" class="carousel slide container d-none d-sm-block " data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="carosel/jok/niekverlaan-istanbul-376385_1920.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="carosel/jok/pexels-ahmetcigsar-17397677.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="carosel/jok/pexels-konevi-2291786.jpg" class="d-block w-100" alt="...">
-      </div>
+        <div class="carousel-item active">
+            <img src="carosel/pexels-ahmetcigsar-17397677.jpg" class="d-block w-100" alt="Kép">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="carosel/11-torokorszag-idijarasa-az-evszakok-soran-02.jpg" class="d-block w-100" alt="Kép">
+        </div>
+        <div class="carousel-item">
+            <img src="carosel/jok/pexels-konevi-2291786.jpg" class="d-block w-100" alt="Kép">
+        </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Előző</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Következő</span>
+    </a>
+</div>
 
 
 
@@ -55,12 +64,12 @@
 </main>
 
 <main>
-  <h1>Látnivalók</h1>
+  <h1 class="text-center">Látnivalók</h1>
   <p class="text-center">Törökország népszerűségét leginkább Isztambul és a Török Riviéra adja. Ám ezeken kívül is rengeteg csodás látnivaló várja a turistákat!</p>
 
 <div class="row">
 
-  <div class="col ml-100px">
+  <div class="col">
 
     <div class="card" style="width: 18rem;">
       <img src="latnivalok/kepek/Epheszosz.jpg" class="card-img-top" alt="Epheszosz">
@@ -74,7 +83,7 @@
 
   </div>
 
-  <div class="col ml-100px">
+  <div class="col">
 
     <div class="card" style="width: 18rem;">
       <img src="latnivalok/kepek/Isztambul.jpg" class="card-img-top" alt="Epheszosz">
@@ -88,7 +97,7 @@
 
   </div>
 
-  <div class="col ml-100px">
+  <div class="col">
 
     <div class="card" style="width: 18rem;">
       <img src="latnivalok/kepek/Pamukkale.jpg" class="card-img-top" alt="Epheszosz">
